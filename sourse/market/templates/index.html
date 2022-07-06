@@ -15,9 +15,10 @@
                     <div class="card-body">
                         <h3>{{ product.name }} (category - {{ product.categories}})</h3>
                         <p>{{ product.description }}</p>
+                        <a class="btn btn btn-primary" href="{% url "update_product" pk=product.pk %}" role="button"><i class="fa fa-pencil"></i> Редактировать</a>
+                        <a class="btn btn btn-primary" href="{% url "delete" pk=product.pk %}" role="button"><i class="fa fa-trash"></i> Удалить</a>
+                        <p></p>
                         <a href="{% url "product_view" pk=product.pk %}">Подробнее о товаре</a>
-{#                        <a class="btn btn btn-primary" href="{% url "update_note" pk=note.pk %}" role="button"><i class="fa fa-pencil"></i> Редактировать</a>#}
-{#                        <a class="btn btn btn-primary" href="{% url "delete" pk=note.pk %}" role="button"><i class="fa fa-trash"></i> Удалить</a>#}
                     </div>
                 </div>
             </div>

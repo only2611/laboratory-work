@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 {% block nav %}
-{#    <a class="nav-link" href="{% url "create_product" %}">Create task</a>#}
-{#    <a class="nav-link" href="{% url "update_product" product.pk %}">Update task</a>#}
-{#    <a class="nav-link" href="{% url "delete" product.pk %}">Delete</a>#}
+    <a class="nav-link" href="{% url "create" %}">Create task</a>
+    <a class="nav-link" href="{% url "update_product" product.pk %}">Update task</a>
+    <a class="nav-link" href="{% url "delete" product.pk %}">Delete</a>
 {% endblock %}
 {% block content %}
 <p>name - {{ product.name }}</p>

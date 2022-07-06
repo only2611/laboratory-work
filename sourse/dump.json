@@ -1,0 +1,79 @@
+[
+{
+    "model": "market.product",
+    "pk": 1,
+    "fields": {
+        "name": "milk",
+        "description": "baby milk is near to awesome product",
+        "categories": "milk",
+        "balance": 1,
+        "price": "55555.55"
+    }
+},
+{
+    "model": "market.product",
+    "pk": 2,
+    "fields": {
+        "name": "Carrot",
+        "description": "one of great veg-s",
+        "categories": "milk",
+        "balance": 0,
+        "price": "44444.55"
+    }
+},
+{
+    "model": "market.product",
+    "pk": 3,
+    "fields": {
+        "name": "vacuum cleaner",
+        "description": "vacuum cleaner LG",
+        "categories": "other",
+        "balance": 200,
+        "price": "20000.00"
+    }
+},
+{
+    "model": "market.product",
+    "pk": 4,
+    "fields": {
+        "name": "potato",
+        "description": "potato tacos",
+        "categories": "organic",
+        "balance": 0,
+        "price": "5.96"
+    }
+},
+{
+    "model": "market.product",
+    "pk": 5,
+    "fields": {
+        "name": "sandwich",
+        "description": "sandwich - fast food",
+        "categories": "fast_feed",
+        "balance": 5,
+        "price": "111.11"
+    }
+},
+{
+    "model": "market.product",
+    "pk": 6,
+    "fields": {
+        "name": "cola",
+        "description": "one of the most valuable player in the market",
+        "categories": "drinks",
+        "balance": 11,
+        "price": "20.00"
+    }
+},
+{
+    "model": "market.product",
+    "pk": 7,
+    "fields": {
+        "name": "watermelon",
+        "description": "watermelon in period from july 15 to september 1",
+        "categories": "vegetables",
+        "balance": 100,
+        "price": "5.00"
+    }
+}
+]

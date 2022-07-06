@@ -12,7 +12,7 @@ class Product(models.Model):
     description = models.TextField(max_length=2000, null=True, blank=True, verbose_name="Описание товара")
     categories = models.CharField(max_length=100, choices=CATEGORY, verbose_name="Категория", default="other")
     balance = models.PositiveIntegerField(verbose_name="Остаток товара")
-    price = models.DecimalField(max_length=100, max_digits=7, decimal_places=2, verbose_name="Цена товара")
+    price = models.DecimalField(max_digits=7, decimal_places=2, verbose_name="Цена товара")
 
 
     def __str__(self):

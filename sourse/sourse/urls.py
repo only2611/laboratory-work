@@ -16,12 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from market.views import product_view
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include("market.urls")),
-    path('product/<int:pk>/', product_view, name="product_view"),
+
 
 
 ]
